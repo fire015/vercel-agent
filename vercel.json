@@ -1,0 +1,14 @@
+{
+  "experimentalServices": {
+    "web": {
+      "entrypoint": "frontend",
+      "framework": "nextjs",
+      "mount": "/"
+    },
+    "eve": {
+      "entrypoint": ".",
+      "framework": "eve",
+      "mount": "/_eve_internal/eve"
+    }
+  }
+}
