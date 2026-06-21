@@ -214,7 +214,7 @@ export function WorkflowChat() {
               <div key={message.id} className={`flex gap-3 ${isUser ? "justify-end" : "justify-start"}`}>
                 {!isUser && (
                   <div className="w-7 h-7 rounded-full bg-indigo-600 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">
-                    A
+                    AI
                   </div>
                 )}
                 <div
@@ -244,7 +244,7 @@ export function WorkflowChat() {
 
           {isBusy && (
             <div className="flex gap-3 justify-start">
-              <div className="w-7 h-7 rounded-full bg-indigo-600 flex items-center justify-center text-xs font-bold shrink-0">A</div>
+              <div className="w-7 h-7 rounded-full bg-indigo-600 flex items-center justify-center text-xs font-bold shrink-0">AI</div>
               <div className="bg-zinc-800 rounded-2xl rounded-bl-sm px-4 py-3 flex gap-1 items-center">
                 <span className="w-1.5 h-1.5 bg-zinc-400 rounded-full animate-bounce [animation-delay:0ms]" />
                 <span className="w-1.5 h-1.5 bg-zinc-400 rounded-full animate-bounce [animation-delay:150ms]" />

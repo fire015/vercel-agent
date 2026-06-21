@@ -4,5 +4,5 @@ import { withEve } from "eve/next";
 const nextConfig: NextConfig = {};
 
 export default withEve(nextConfig, {
-  eveRoot: "..",
+  eveRoot: "../eve",
 });
